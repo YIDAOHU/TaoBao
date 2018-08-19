@@ -10,7 +10,6 @@ from lxml import etree
 import pymongo
 from bson.objectid import ObjectId
 
-
 driver = webdriver.PhantomJS()
 # 设置等待
 wait = WebDriverWait(driver, 10)
